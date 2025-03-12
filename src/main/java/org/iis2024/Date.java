@@ -1,5 +1,6 @@
 package org.iis2024;
 
+import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -86,5 +87,9 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+  }
+  
+  public void Method() {
+	  System.out.print("method added by the owner");
   }
 }
